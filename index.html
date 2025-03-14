@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- UTF-8 kodlash formati -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobil moslashuv -->
+    <title>SEEDEX AI</title> <!-- Sahifa nomi -->
+    <link rel="icon" type="image/png" href="img/glo.jpg">
+    <link rel="stylesheet" href="css/style.css"> <!-- Statik CSS faylni ulash -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- FontAwesome ikonkalari -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar"> <!-- Navigatsiya paneli -->
+        <img src="img/glq.jpg" class="logo" alt="Freedom Doge Logo"> <!-- Logotip -->
+        <div class="nav-links"> <!-- Havolalar qismi -->
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#tokenomics">Tokenomics</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>SEEDEX</h1>
+        <p style="font-size: 2.5rem;">AI</p>
+        
+        <!-- Nusxalash tugmasi -->
+        <button class="copy-button" data-contract="222">Soon</button>
+    
+        <!-- Nusxalash muvaffaqiyatli bo'lganini ko‘rsatish uchun matn -->
+        <span id="copy-success" style="display: none; color: lightgreen; font-weight: bold; margin-top: 10px;">
+            Copied!
+        </span>
+    </section>
+    
+    
+
+    <!-- About Section -->
+    <section id="about" class="content-section"> <!-- Loyiha haqida bo‘lim -->
+        <h2>About</h2>
+        <p>Join our heroic adventurer's crypto quest on Solana. Leap through challenges, 
+            grab those gains, and let's make some noise in the meme coin world!</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="content-section"> <!-- Xususiyatlar bo‘limi -->
+        <h2>Unique Features</h2>
+        <div class="feature-box">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Secure & Decentralized</h3>
+            <p>Powered by blockchain technology, ensuring transparency and security.</p>
+        </div>
+        <div class="feature-box">
+            <i class="fas fa-hand-holding-usd"></i>
+            <h3>Community-Driven</h3>
+            <p>The coin is fully owned by the community, no centralized control.</p>
+        </div>
+        <div class="feature-box">
+            <i class="fas fa-rocket"></i>
+            <h3>High-Speed Transactions</h3>
+            <p>Lightning-fast and low-cost transactions on our scalable network.</p>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="content-section">
+        <h2>Roadmap</h2>
+        <div class="roadmap-timeline">
+            <p>Thousands of tokens are created, rug-pulled, and we don't have time 
+                to review even the most basic information before buying, information that could be the key to deciding whether or not to invest in a token. 
+                SEEDEX AI aims to provide that security, with reliable, real-time data. </p>
+            <!-- DexScreener Button -->
+            <a href="https://DexScreener.com/" target="_blank" class="link-button">
+                <img src="img/dexscreener-icon.png" alt="Hi" class="link-logo">
+                <span>Track on DexScreener</span>
+            </a>
+    
+            <!-- Ikkinchi Link uchun (o'zgartiring) -->
+            <a href="https://pump.fun/" target="_blank" class="link-button">
+                <img src="img/glo.jpg" alt="Other Platform" class="link-logo">
+                <span>SEEDEX AI</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Section -->
+<section id="privacy-policy" class="content-section">
+    <h2>Privacy Policy</h2>
+    <div class="policy-boxes">
+        <div class="policy-box">
+            <h3>Information We Collect</h3>
+            <ul>
+                <li>User interactions data</li>
+                <li>Social media metrics</li>
+                <li>Platform engagement analytics</li>
+            </ul>
+        </div>
+        
+        <div class="policy-box">
+            <h3>Data Usage & Security</h3>
+            <ul>
+                <li>Experience enhancement</li>
+                <li>Trend analysis</li>
+                <li>Secure storage</li>
+                <li>Third-party sharing</li>
+            </ul>
+        </div>
+
+        <div class="policy-box">
+            <h3>User Rights</h3>
+            <ul>
+                <li>Future deletion rights</li>
+                <li>Cookie management</li>
+                <li>Identity verification</li>
+                <li>Contact channels</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="contact-note">
+        <p>Continued use implies acceptance of our Terms. Contact us Plank Telegram official group.</p>
+    </div>
+</section>
+
+    <!-- Social Links -->
+    <div class="social-links"> <!-- Ijtimoiy tarmoqlar havolalari -->
+        <a href="https://t.me/" target="_blank"><i class="fab fa-telegram"></i></a> <!-- Telegram -->
+        <a href="https://x.com" target="_blank"><i class="fab fa-x"></i></a> <!-- Twitter -->
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            2025 © All Rights Reserved 
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth' // Silliq harakat qilish
+                });
+            });
+        });
+
+        // Parallax effect
+        window.addEventListener('scroll', function() {
+            const scrolled = window.pageYOffset;
+            document.body.style.backgroundPositionY = -(scrolled * 0.5) + 'px'; // Paralaks effekti
+        });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
